@@ -10,7 +10,7 @@ app.get('/', function(request, response){
 */
 
 app.get('/', function(request, response) {
-  buf = fs.readFileSync('index3.html');
+  buf = fs.readFileSync('index.html');
   myString = buf.toString();
   response.send(myString);
 });
