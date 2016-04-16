@@ -55,12 +55,12 @@
       </div>
       <div class="row heading">
         <div class="span12">
-          <center><h1>Heading</h1></center>
+          <h1>Heading</h1>
         </div>
       </div> 
      <div class="row subheading">
         <div class="span12">
-          <center><h2>Subheading</h2></center>
+          <h2>Subheading</h2>
         </div>
       </div>
       <div class="row pitch">
@@ -81,22 +81,22 @@
       </div>
       <div class="row section1">
         <div class="span12">
-          <center>Marketing Section 1</center>
+          Marketing Section 1
         </div>
       </div>
       <div class="row section2">
         <div class="span12">
-          <center>Marketing Section 2</center>
+          Marketing Section 2
         </div>
       </div>
       <div class="row faq">
         <div class="span12">
-          <center>FAQ</center>
+          FAQ
         </div>
       </div>
       <div class="row footer">
         <div class="span12">
-          <center>Footer</center>
+          Footer
         </div>
       </div>
       <div >
