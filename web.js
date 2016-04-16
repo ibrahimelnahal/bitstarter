@@ -3,6 +3,12 @@ var app = express();
 var fs = require('fs');
 app.use(express.logger());
 
+/*
+app.get('/', function(request, response){
+  response.send(éHello World2!");
+}); 
+*/
+
 app.get('/', function(request, response) {
   buf = fs.readFileSync('index.html');
   myString = buf.toString();
