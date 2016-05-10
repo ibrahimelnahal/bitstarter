@@ -5,12 +5,12 @@ app.use(express.logger());
 
 /*
 app.get('/', function(request, response){
-  response.send(éHello World2!");
+  response.send(Hello World2!");
 }); 
 */
 
 app.get('/', function(request, response) {
-  buf = fs.readFileSync('index5.html');
+  buf = fs.readFileSync('index4.html');
   myString = buf.toString();
   response.send(myString);
 });
