@@ -87,11 +87,25 @@
       }
       .footer p {
         font-size: 11px;
-      }
+       }
       .footer a {
         color: #ccccff;
       }
+      div.addthis_toolbox {
+      width:180px;
+      margin: 0 auto;
+      }
     </style>
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-45540531-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
   </head>
   <body>
     <!-- Mobile-friendly navbar adapted from example. -->
@@ -171,16 +185,20 @@
               <div class="bar bar-warning" style="width: 60%;"></div>
             </div>
           </div>
-          <div class="span6 offset3 order">
-            <!-- Standard Bootstrap button. -->
-            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <button class="btn btn-success btn-large">Download Now</button>
-          </div>
+         
+              <button class="btn-primary btn-large">Projeye Bağış Yap</button>
+              <!-- Standard Bootstrap button. -->
+ -            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+ -            
+ +            <a class="coinbase-button" 
+ +                data-code="2177158dga8zk8a377aee174ed6f7e5"
+ +                href="https://coinbase.com/checkouts/2177158dga8zk8a377aee174ed6f7e5">
+ +                    Preorder With Bitcoin
+ +            </a>
+ +            <script src="https://coinbase.com/assets/button.js"></script>
           <div class="span8 offset2 social">
-            <!-- Social buttons are not included in default Bootstrap. -->
-            <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-            <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_sharing_toolbox"></div>
           </div>
         </div>
       </div>
